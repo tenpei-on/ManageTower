@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  gather_facts: false
+  vars:
+    
+  roles:
+    - install_ansible_tower

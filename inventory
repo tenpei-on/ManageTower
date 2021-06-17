@@ -1,0 +1,10 @@
+[tower]              
+# tower hostname     
+tower1
+                     
+[tower:vars]         
+ansible_ssh_user=
+ansible_ssh_password=
+tower_username=admin 
+tower_password=redhat
+

@@ -1,0 +1,11 @@
+---
+- name: modify script
+  lineinfile:
+    path: "{{ tower_install_script_path }}/inventory"
+    regexp: "{{ item.regexp }}"
+    line: "{{ item.line }}"
+  loop:
+  - regexp: 
+    line:
+  - regexp:
+    line: 

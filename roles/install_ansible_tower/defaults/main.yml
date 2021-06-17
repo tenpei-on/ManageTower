@@ -1,0 +1,4 @@
+---
+# defaults file for install_ansible_tower
+tower_installation_program: https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+tower_install_directory: /etc/tower-installation

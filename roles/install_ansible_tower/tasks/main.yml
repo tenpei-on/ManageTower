@@ -1,0 +1,9 @@
+---
+# tasks file for install_ansible_tower
+- name: Get latest version program to install and unzip it
+  import_tasks: prepare_program.yml
+
+- name: set up inventory to install
+  import_tasks: modify_inventory.yml
+
+# exec install
